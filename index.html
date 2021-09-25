@@ -5,10 +5,15 @@
   <body>
     <a-scene>
       <a-asset-item id="cube" src="assets/barrel.gltf"></a-asset-item>
+      <a-entity
+        id="camera"
+        camera="active: true"
+        look-controls
+        wasd-controls
+        position="0 0.54581 1.50065"
+      ></a-entity>
 
       <a-entity gltf-model="#cube"></a-entity>
     </a-scene>
   </body>
 </html>
-
-
